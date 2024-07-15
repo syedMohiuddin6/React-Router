@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div>
-      <ul className="flex space-x-6 bg-black md:space-x-58 justify-center md:justify-center text-white">
+      <ul className="flex space-x-6 bg-black md:space-x-58 p-4 shadow-xl justify-center md:justify-center text-white">
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about" >About</Link>
